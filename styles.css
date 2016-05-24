@@ -53,5 +53,20 @@ filter: grayscale(100%);
 	left: 43vw;
 	z-index: 1;
 }
-
+.leftfor {
+	background-color: #1D1D1D;
+	position: absolute;
+	width: 50vw;
+	height: 75vh;
+	opacity: .5;
+}
+.rightfor {
+	background-color: #EB5516;
+	position: absolute;
+	right: 0vw;
+	top:  0vh;
+	width: 50vw;
+	height: 82vh;
+	opacity: .5;
+}
 
