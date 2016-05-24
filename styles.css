@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+}
+.leftside {
+	float: left;
+	width: 50vw;
+	height: 100vh;
+	margin: 0;
+}
+.rightside {
+	float: right;
+	width: 50vw;
+	height: 100vh;
+	margin: 0;
+}
+img {
+	width: 50vw;
+	height: 100vh;
+}
+.rightside img {
+	-webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+}
+.leftside img {
+	-webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+}
+.rightside img:hover {
+	zoom: 105%;
+
+}
+.leftside img:hover {
+	zoom:105%;
+}
+.nav img {
+	width: 100px;
+	height: 100px;
+	margin: 0;
+
+}
+.nav {
+	position: fixed;
+	top: 0;
+	left: 46vw;
+	z-index: 1;
+	background-color: #FFFFFF;
+}
+ #rdv img {
+	width: 200px;
+	height: 200px;
+	position: fixed;
+	top: 100px;
+	left: 43vw;
+	z-index: 1;
+}
+
+
