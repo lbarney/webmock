@@ -69,4 +69,23 @@ filter: grayscale(100%);
 	height: 82vh;
 	opacity: .5;
 }
+.leftone img {
+	position: fixed;
+	top: 30vh;
+	right: 65vw;
+	width: 25vw;
+	height: 25vh;
+	color: #FFFFFF;
+	z-index: 20;
+
+}
+.rightone img {
+	position: fixed;
+	top: 30vh;
+	left: 65vw;
+	width: 25vw;
+	height: 25vh;
+	color: #FFFFFF;
+	z-index: 20;
+}
 
